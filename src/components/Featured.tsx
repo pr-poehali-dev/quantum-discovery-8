@@ -9,10 +9,12 @@ export default function Featured() {
         />
       </div>
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
-        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Церемония регистрации</h3>
-        <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
-          Просим вас разделить с нами этот особенный момент — регистрацию нашего союза.
+        <p className="text-2xl lg:text-3xl mb-4 text-neutral-900 italic">Дорогой гость!</p>
+        <p className="text-base lg:text-lg mb-8 text-neutral-600 leading-relaxed">
+          Мы рады сообщить Вам, что состоится самое главное торжество в нашей жизни — день нашей свадьбы!
+          Приглашаем Вас разделить с нами радость этого незабываемого дня.
         </p>
+        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Церемония регистрации</h3>
         <div className="flex flex-col gap-4 mb-8">
           <div className="flex items-start gap-3">
             <span className="text-neutral-400 uppercase text-xs tracking-wide pt-1 w-20 shrink-0">Дата</span>
